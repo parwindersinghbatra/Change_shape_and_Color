@@ -35,6 +35,6 @@ const shapeBtn = document.getElementById('shapeBtn')
 shapeBtn.addEventListener('click', changeShape)
 
 const clearShape = () => {
-    
-    shareBtn.classList = ""
+    const shapeButton = document.getElementById('shape')
+    shapeButton.classList=""
 }
